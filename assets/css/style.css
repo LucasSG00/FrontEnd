@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #303952;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilo da página index.html */
+/* NavBar */
+.navbar {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.281);
+    border-bottom: solid 2px black;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.menu li {
+    display: inline;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li a:hover {
+    color: gray;
+}
+
+/* Main */
+
+.banner {
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    border-bottom: solid 2px black;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    margin: 2% 10%;
+    display: flex;
+    flex-flow: row;
+    height: 400px;
+}
+
+.descricao {
+    width: 50%;
+    border-radius: 2%;
+    background-color: rgba(0, 0, 0, 0.075);
+}
+.descricao h3, h5, p {
+    margin: 0;
+}
+
+.descricao h4 {
+    margin-bottom: 0;
+}
+
+.info {
+    margin: 6%;
+}
+
+.trailer {
+    width: 50%;
+}
+
+.catalogo {
+    display: flex;
+    flex-flow: row;
+    margin: auto 5%;
+}
+
+.link-cards {
+    display: none;
+}
+
+.cards {
+    margin-right: 1%;
+    width: 200px;
+    height: 300px;
+}
+
+.cards:hover + .link-cards {
+    display: block;
+}
+
+.cards img {
+    width: 100%;
+    height: 100%;
+}
+
+.cards figcaption {
+    background-color: rgba(0, 0, 0, 0.185);
+    padding: 5px;
+    text-align: center;
+}
+
+
+/* Footer */
+
+.footer-container {
+    margin-top: 4%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.281);
+    padding-bottom: 1%;
+    border-top: solid 2px black;
+}
+
+.icon-midia {
+    width: 50px;
+    height: 50px;
+
+    padding: 20px;
+}
+
+/* Estilo da página feedback */
+
+.origem-filme {
+    margin-left: 50px;
+}
+
+.feedback-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin: 4% 5%;
+}
+
+.enviar-form {
+
+}
+
+.enviar-form {
+    background-color: #272f41;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.enviar-form:hover {
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #1f2635;
+}
