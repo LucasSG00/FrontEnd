@@ -9,7 +9,11 @@
 <body>
 
     <nav class="navbar">
-        <h1 class="logo">SGCatalogo</h1>
+        <h1 class="logo">
+            <a href="index.html">
+                SGCatalogo
+            </a>
+        </h1>
         <ul class="menu">
             <li>
                 <a href="index.html">Home</a>
@@ -25,23 +29,24 @@
             <div class="formulario">
                 <form>
                     <label for="nome">Nome:</label><br>
-                    <input type="text" id="nome" size="40">
-                    <br><br>
+                    <input type="text" id="nome">
+                    <br>
                     
                     <label for="email">Email:</label><br>
-                    <input type="email" id="email" size="40">
-                    <br><br>
+                    <input type="email" id="email">
+                    <br>
                 
                     <label for="nomeFilme">Nome do Filme:</label><br>
                     <input type="text" id="nomeFilme" size="40">
-                    <br><br>
+                    <br>
                     
                     <label for="comentario">Comentário:</label> <br>
-                    <textarea name="comentario" id="" cols="60" rows="10"></textarea>
-            
-                    <br><br>
-                    <button class="enviar-form">Enviar</button>
+                    <textarea name="comentario" id="comentario" cols="60" rows="10"></textarea>
+                    <div class="txtComentario">Limite máximo de 100 caracteres</div>
+
+                    <br>
                 </form>
+                <button class="enviar-form" onclick="validacao()">Enviar</button>
             </div>
 
             <div class="origem-filme">
@@ -70,5 +75,7 @@
         </div>
     </footer>
     
+    <script src="assets/js/scriptFeed.js"></script>
+
 </body>
 </html>

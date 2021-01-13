@@ -91,11 +91,12 @@ a{
 .catalogo {
     display: flex;
     flex-flow: row;
+    justify-content: space-around;
     margin: auto 5%;
 }
 
-.link-cards {
-    display: none;
+.card-content {
+    margin-right: 1%;
 }
 
 .cards {
@@ -104,8 +105,20 @@ a{
     height: 300px;
 }
 
-.cards:hover + .link-cards {
-    display: block;
+.cards:hover {
+    width: 210px;
+    height: 310px;
+}
+
+.info-card {
+    background-color: #1f2635;
+    position: absolute;
+    left: 25%;
+    top: 10%;
+    z-index: 9999;
+    width: 50%;
+    height: 600px;
+    display: none;
 }
 
 .cards img {
