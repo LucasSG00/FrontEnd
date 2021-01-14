@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #303952;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: white;
+}
+
+/* Estilo da página index.html */
+/* NavBar */
+#menu {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 0 3%; 
+    border-bottom: solid 2px black;
+}
+
+.navbar {
+    display: flex;
+    flex-flow:row;
+    align-items: center;
+    height: 65px;
+}
+
+.navbar ul li a{
+    font-size: 14px;
+}
+
+.logo {
+    font-size: 30px;
+    color: red;
+}
+
+/* Cards */
+#cards {
+    margin: 3%;
+}
+
+.card-container {
+    display: flex;
+    flex-flow: row;
+}
+
+.card{
+    background-color: rgba(0,0,0,0);
+    width: 320px;
+    height: 170px;
+    margin-left: 2px;
+}
+
+.card img {
+    border-radius: 5px;
+}
+
+
+
+/* Banner */
+
+#banner {
+    border-bottom: solid 2px black;
+}
+
+.carousel-item img {
+    opacity: 0.8;
+}
+
+.descricao {
+    width: 35%;
+    padding-left: 2%;
+    padding-top: 10%;
+    display: flex;
+    flex-flow:column;
+    justify-items: center;
+    color: rgb(255, 249, 249);
+}
+
+.descricao h5 {
+    font-size: 60px;
+}
+
+.button-descricao {
+    display: flex;
+    flex-flow:row;
+}
+
+.btn-assistir {
+    height: 55px;
+    width: 30%;
+    margin-right: 2%;
+    border: none;
+}
+
+.btn-assistir:hover {
+    background-color:rgba(255, 255, 255, 0.7);
+}
+
+.btn-mais-info {
+    height: 55px;
+    width: 50%;
+    background-color: rgba(97, 97, 97, 0.8);
+    border: none;
+}
+
+.btn-mais-info:hover {
+    background-color: rgba(97, 97, 97, 0.6);
+}
+
+.icone {
+    padding-right: 5%;
+}
+
+
+
+/* Footer */
+footer {
+}
+
+.footer-container {
+    margin-top: 4%;
+    padding: 1% 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 2px black;
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+.icon-midia {
+    height: 30px;
+    padding-right: 10px;
+}

@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <title>FeedBack</title>
 </head>
+
 <body>
 
     <nav class="navbar">
@@ -24,22 +28,22 @@
         </ul>
     </nav>
 
-    <main>
+    <main class="teste">
         <div class="feedback-container">
             <div class="formulario">
                 <form>
                     <label for="nome">Nome:</label><br>
                     <input type="text" id="nome">
                     <br>
-                    
+
                     <label for="email">Email:</label><br>
                     <input type="email" id="email">
                     <br>
-                
+
                     <label for="nomeFilme">Nome do Filme:</label><br>
                     <input type="text" id="nomeFilme" size="40">
                     <br>
-                    
+
                     <label for="comentario">Comentário:</label> <br>
                     <textarea name="comentario" id="comentario" cols="60" rows="10"></textarea>
                     <div class="txtComentario">Limite máximo de 100 caracteres</div>
@@ -50,13 +54,16 @@
             </div>
 
             <div class="origem-filme">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d167998.10803373056!2d2.206977064368058!3d48.858774103123785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2zUGFyaXMsIEZyYW7Dp2E!5e0!3m2!1spt-BR!2sbr!4v1610452265581!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d167998.10803373056!2d2.206977064368058!3d48.858774103123785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2zUGFyaXMsIEZyYW7Dp2E!5e0!3m2!1spt-BR!2sbr!4v1610452265581!5m2!1spt-BR!2sbr"
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
             </div>
         </div>
     </main>
 
     <footer>
-        <div class="footer-container">        
+        <div class="footer-container">
             <div class="midia">
                 <a href="https://www.facebook.com/" target="_blank">
                     <img class="icon-midia" src="assets/img/facebook.png" alt="Logo do Facebook">
@@ -74,8 +81,18 @@
             </div>
         </div>
     </footer>
-    
+
     <script src="assets/js/scriptFeed.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>
