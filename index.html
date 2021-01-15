@@ -309,24 +309,28 @@
                     <div class="col">
                         <div class="inputNome">
                             <label for="inputNome">Nome</label>
-                            <input type="text" class="form-control" placeholder="Nome" size="105">
+                            <input type="text" id="txtNome" class="form-control" placeholder="Nome" size="105">
+                            <span class="avisoNome">Dado incorreto a cima</span>
                         </div>
                         <div class="inputSobrenome">                        
                             <label for="inputSobrenome">Sobrenome</label>
-                            <input type="text" class="form-control" placeholder="Sobrenome" size="105">
+                            <input type="text" id="txtSobrenome" class="form-control" placeholder="Sobrenome" size="105">
+                            <span class="avisoSobrenome">Dado incorreto a cima</span>
                         </div>
                     </div>
                     <div class="form-group col-md-13">
                         <label for="inputEmai">Email</label>
-                        <input type="email" class="form-control" id="inputEmai" placeholder="Email">
+                        <input type="email" id="txtEmail" class="form-control" id="inputEmai" placeholder="Email">
+                        <span class="avisoEmail">Dado incorreto a cima</span>
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Assunto</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        <textarea class="form-control" id="txtAssunto" rows="5"
                             placeholder="Como podemos ajudar?"></textarea>
+                            <span class="avisoAssunto">Dado incorreto a cima</span>
                     </div>
                 </div>
-                <button type="button" class="btn btn-secondary btn-lg btn-block btn-formulario">
+                <button type="button" class="btn btn-secondary btn-lg btn-block btn-formulario" onclick="validacao()">
                     Enviar
                 </button>
             </form>
@@ -346,9 +350,12 @@
                 <a href="https://twitter.com/">
                     <img class="icone-twitter" src="imagem/twitter.png" alt="Twitter">
                 </a>
+                <a href="https://github.com/LucasSG00">
+                    <img class="icone-github" src="imagem/icone-github.png" alt="Twitter">
+                </a>
             </div>
             <div class="footer-criacao">
-                <p>Todos os direitos reservador: &copyLucas Santos</p>
+                <p>Todos os direitos reservador: &copy Lucas Santos Gonçalves - LucasSG00</p>
             </div>
         </div>
     </footer>
