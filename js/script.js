@@ -30,7 +30,6 @@ function validaSobrenome(){
         sobrenome.style.backgroundColor = 'white';
         aviso = document.querySelector(".avisoSobrenome").style.display = 'block';
         sobrenomeOk = false;
-        console.log(sobrenomeOk);
     }
 }
 
@@ -45,7 +44,6 @@ function validaEmail(){
         aviso = document.querySelector(".avisoEmail").style.display = 'block';
 
         emailOk = false;
-        console.log(emailOk);
     }
 }
 
@@ -85,7 +83,6 @@ function validacao(){
 }
 
 let menu = document.querySelector(".menu-container")
-console.log(menu);
 
 function ocultarMenu(){
     menu.style.display = 'none';
